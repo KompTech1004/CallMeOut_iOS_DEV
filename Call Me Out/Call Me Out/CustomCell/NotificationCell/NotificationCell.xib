@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="NotificationCell" rowHeight="187" id="Mdf-uR-TAS" customClass="NotificationCell" customModule="Call_Me_Out" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="368" height="179"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Mdf-uR-TAS" id="bAW-g1-Fng">
+                <rect key="frame" x="0.0" y="0.0" width="368" height="178.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LTS-x1-CH2">
+                        <rect key="frame" x="12" y="11" width="36" height="36"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="UserName" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dOs-yg-lCf">
+                        <rect key="frame" x="58" y="8" width="224" height="22"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="called out you in CallOutName sdf sdf sdf sdf sdf sdf sdf sdf " lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7dX-al-lrQ">
+                        <rect key="frame" x="58" y="30" width="228" height="143.5"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Nxc-uo-8pY">
+                        <rect key="frame" x="300" y="8" width="60" height="48"/>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="CJ3-sW-I5q"/>
+                            <constraint firstAttribute="height" constant="48" id="Fcb-h7-k4f"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3 hours ago" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="szx-jd-ysa">
+                        <rect key="frame" x="288" y="58" width="72" height="108"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" red="0.12549019607843137" green="0.12941176470588234" blue="0.13725490196078433" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstItem="szx-jd-ysa" firstAttribute="leading" secondItem="7dX-al-lrQ" secondAttribute="trailing" constant="2" id="I4e-Nk-tMr"/>
+                    <constraint firstItem="szx-jd-ysa" firstAttribute="top" secondItem="Nxc-uo-8pY" secondAttribute="bottom" constant="2" id="IDt-Su-RnI"/>
+                    <constraint firstAttribute="trailing" secondItem="Nxc-uo-8pY" secondAttribute="trailing" constant="8" id="QdQ-Br-xiF"/>
+                    <constraint firstItem="7dX-al-lrQ" firstAttribute="top" secondItem="bAW-g1-Fng" secondAttribute="top" constant="30" id="Wfv-CC-rVf"/>
+                    <constraint firstItem="7dX-al-lrQ" firstAttribute="leading" secondItem="bAW-g1-Fng" secondAttribute="leading" constant="58" id="WoA-GC-hT6"/>
+                    <constraint firstItem="Nxc-uo-8pY" firstAttribute="top" secondItem="bAW-g1-Fng" secondAttribute="top" constant="8" id="oKy-Sz-5H7"/>
+                    <constraint firstItem="szx-jd-ysa" firstAttribute="trailing" secondItem="Nxc-uo-8pY" secondAttribute="trailing" id="rRR-Lj-mAq"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="szx-jd-ysa" secondAttribute="bottom" constant="2" id="xZ8-IN-O1k"/>
+                    <constraint firstAttribute="trailing" secondItem="7dX-al-lrQ" secondAttribute="trailing" constant="82" id="ybn-eO-RwU"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imgViCalloutThumb" destination="Nxc-uo-8pY" id="oku-yO-b2W"/>
+                <outlet property="imgViInitator" destination="LTS-x1-CH2" id="ehj-VQ-GrM"/>
+                <outlet property="lblMessage" destination="7dX-al-lrQ" id="q8K-aW-A5a"/>
+                <outlet property="lblTime" destination="szx-jd-ysa" id="yYS-0G-Oh1"/>
+                <outlet property="lblUserName" destination="dOs-yg-lCf" id="0zI-RE-XHt"/>
+            </connections>
+            <point key="canvasLocation" x="-249" y="65.5"/>
+        </tableViewCell>
+    </objects>
+</document>
