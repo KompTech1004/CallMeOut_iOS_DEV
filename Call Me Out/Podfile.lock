@@ -91,7 +91,7 @@ PODS:
   - nanopb/decode (0.3.8)
   - nanopb/encode (0.3.8)
   - Player (0.8.4)
-  - ProgressHUD (2.60)
+  - ProgressHUD (2.70)
   - Protobuf (3.6.0)
   - SDWebImage (4.4.2):
     - SDWebImage/Core (= 4.4.2)
@@ -124,7 +124,7 @@ DEPENDENCIES:
   - Toast-Swift
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - ActionSheetPicker-3.0
     - Alamofire
     - Alamofire-SwiftyJSON
@@ -153,12 +153,13 @@ SPEC REPOS:
     - IQKeyboardManagerSwift
     - nanopb
     - Player
-    - ProgressHUD
     - Protobuf
     - SDWebImage
     - SwiftyJSON
     - TagListView
     - Toast-Swift
+  trunk:
+    - ProgressHUD
 
 SPEC CHECKSUMS:
   ActionSheetPicker-3.0: eef157d75e151f255c5333d26656c7fbfe905a51
@@ -189,7 +190,7 @@ SPEC CHECKSUMS:
   IQKeyboardManagerSwift: 36dbe324b4f9793f5f41ba5227f3e7c76dfefd50
   nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
   Player: e45514e9e5fb8ff18f50eb2ba6f84dac9b6a0024
-  ProgressHUD: 4e4efbaf4f5de8bd32e0c4c3b6644a90ea1a8c3e
+  ProgressHUD: e603e8b8622c47d8818b9fb38b3cfe9d3e7ca421
   Protobuf: 0fc0ad8bec688b2a3017a139953e01374fedbd5f
   SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
   SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
@@ -198,4 +199,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 6c57fd2a233fd4e49b70b7527fdbb8a956d1f158
 
-COCOAPODS: 1.6.0.beta.2
+COCOAPODS: 1.9.1
